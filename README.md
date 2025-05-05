@@ -1,51 +1,27 @@
-# web-dev# Simple HTML & CSS Project
+# Chaitanya Sharma - Web Development Journey 🚀
 
-**Author:** Chaitanya Sharma  
-**Project Name:** Basic Web Page Design  
-**Project Type:** HTML & CSS  
-**Status:** Completed  
-**Date:** [May 5, 2025]
+## 👋 About Me
 
----
+Hello! My name is **Chaitanya Sharma**.  
+I have recently started my journey in **web development** and I’m excited to learn and grow step by step.
 
-## 📌 About the Project
+## 📚 Current Skills
 
-This is my **first web development project**, created using basic **HTML** and **CSS**.  
-The purpose of this project is to practice the fundamental structure of a web page, including layout, text styling, and simple visual design.
+- ✅ I already know the basics of **HTML** and can structure web pages confidently.
+- 🔄 I am currently **studying CSS**, focusing on layout, styling, and visual design to make web pages look good.
 
----
+## 🛠️ What's Next?
 
-## 🛠️ Features
+I am committed to learning the **complete web development stack** step-by-step.  
+Here’s what I plan to learn next:
+- JavaScript (for interactivity)
+- Responsive design (Flexbox, Grid, Media Queries)
+- Git & GitHub (for version control)
+- Frontend frameworks (like React)
+- Backend technologies in the future
 
-- Clean and minimal layout  
-- Responsive design basics  
-- Use of CSS styling  
-- Simple structure using semantic HTML
+## 🌱 Why I'm Doing This
 
----
+Web development is not just a skill, it's a way to build ideas into reality. I'm excited to keep building projects and improving every day.
 
-
----
-
-## 🎯 What I Learned
-
-- Creating an HTML document with proper structure (head, body, etc.)
-- Linking external CSS
-- Using CSS for layout and design
-- Understanding the basic flow of webpage creation
-
----
-
-## 🚀 Next Steps
-
-- Learn JavaScript and add interactivity  
-- Explore more advanced CSS (Flexbox, Grid)  
-- Start using Git and GitHub regularly  
-
----
-
-## 🙌 Thank You
-
-Thank you for checking out my project! Stay tuned for more as I continue my journey in web development 🚀
-
-
+Thanks for reading! 😊
