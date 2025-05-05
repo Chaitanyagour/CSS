@@ -4,7 +4,7 @@
 **Project Name:** Basic Web Page Design  
 **Project Type:** HTML & CSS  
 **Status:** Completed  
-**Date:** [Yahan Date Dalo, e.g., May 5, 2025]
+**Date:** [May 5, 2025]
 
 ---
 
