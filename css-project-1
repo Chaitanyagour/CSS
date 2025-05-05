@@ -3,78 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project 1</title>
+    <title>Project 1 - Lago di Braies</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
-        .div1{
-            height: 600px;
-            width: 500px;
-            border: 2px solid black;
-            margin-top: 100px;
-            margin-left: 30%;
-            border-radius: 15px;
-        }
-        .img{
-            position: relative;
-            height: 250px;
-            width: 400px;
-            border-radius: 10%;
-            margin-left: 50px;
-            margin-top: 20px;
-        }
-        .nature{
-            padding: 10px;
-            border-radius: 10px;
-            background-color: antiquewhite;
-            margin-left: 80px;
-            color: rgb(16, 16, 168);
-            font-weight: 700;
-        }
-        .lake{
-            padding: 10px;
-            border-radius: 10px;
-            background-color: antiquewhite;
-            margin: 10px;
-            color: rgb(16, 16, 168);
-            font-weight: 700;
-        }
-        .h1{
-display: flex;
-justify-content: center;
-background-color: rgb(211, 217, 222);
-border-radius: 20px;
-color: blue;
-padding: 20px;
-margin: 10px;
-        }
-        .p{
-            margin: 20px;
-        }
-.read{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(90, 125, 211);
-    color: white;
-    padding: 20px;
-    border-radius: 30px;
-    margin-left: 190px;
 
-}
-        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .card {
+            max-width: 500px;
+            margin: 100px auto;
+            border: 2px solid #000;
+            border-radius: 15px;
+            background-color: #fff;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .tags {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 15px;
+        }
+
+        .tag {
+            padding: 8px 16px;
+            background-color: antiquewhite;
+            color: rgb(16, 16, 168);
+            border-radius: 10px;
+            font-weight: 700;
+        }
+
+        header h1 {
+            text-align: center;
+            background-color: rgb(211, 217, 222);
+            border-radius: 20px;
+            color: blue;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        article {
+            padding: 0 20px 20px;
+        }
+
+        article p {
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+        .read-more {
+            display: block;
+            text-align: center;
+            background-color: rgb(90, 125, 211);
+            color: white;
+            padding: 15px;
+            margin: 20px auto;
+            border-radius: 30px;
+            width: fit-content;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .read-more:hover {
+            background-color: rgb(60, 100, 180);
+        }
     </style>
 </head>
 <body>
-    <div class="div1">
-   <img src="https://img.freepik.com/free-photo/businessmen-businesswomen-meeting-brainstorming-ideas_7861-3065.jpg?semt=ais_hybrid&w=740" alt="" class="img">
-   <button class="nature">Nature</button>
-   <button class="lake">Lake</button>
-   <h1 class="h1">Lago di braies</h1>
-   <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt blanditiis tempore alias. Deleniti aut autem quam delectus tempore veniam? Quos iste laboriosam asperiores nesciunt repellendus.</p>
-   <button class="read">Read More</button>
-    </div>
+    <main>
+        <section class="card">
+            <figure>
+                <img src="https://img.freepik.com/free-photo/businessmen-businesswomen-meeting-brainstorming-ideas_7861-3065.jpg?semt=ais_hybrid&w=740" alt="Team brainstorming together">
+            </figure>
+            <div class="tags">
+                <span class="tag">Nature</span>
+                <span class="tag">Lake</span>
+            </div>
+            <header>
+                <h1>Lago di Braies</h1>
+            </header>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt blanditiis tempore alias. Deleniti aut autem quam delectus tempore veniam? Quos iste laboriosam asperiores nesciunt repellendus.</p>
+            </article>
+            <a href="#" class="read-more">Read More</a>
+        </section>
+    </main>
 </body>
 </html>
